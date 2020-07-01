@@ -1,0 +1,15 @@
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\bin\Debug\BaiTap1.exe.config
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\bin\Debug\BaiTap1.exe
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\bin\Debug\BaiTap1.pdb
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csprojResolveAssemblyReference.cache
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai1.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.Properties.Resources.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.GenerateResource.Cache
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.exe
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.pdb
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai2.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai3.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai4.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai5.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai6.resources
+D:\1710172_LTCSDL\BaiTap1\BaiTap1\obj\Debug\BaiTap1.FrmBai7.resources
