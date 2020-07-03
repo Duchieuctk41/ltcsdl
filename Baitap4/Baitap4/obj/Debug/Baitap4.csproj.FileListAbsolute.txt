@@ -1,0 +1,9 @@
+D:\Baitap4\Baitap4\bin\Debug\Baitap4.exe.config
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.csprojResolveAssemblyReference.cache
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.Form1.resources
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.Properties.Resources.resources
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.csproj.GenerateResource.Cache
+D:\Baitap4\Baitap4\bin\Debug\Baitap4.exe
+D:\Baitap4\Baitap4\bin\Debug\Baitap4.pdb
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.exe
+D:\Baitap4\Baitap4\obj\Debug\Baitap4.pdb
