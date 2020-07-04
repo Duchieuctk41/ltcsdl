@@ -99,17 +99,36 @@ namespace Baitap4
                 }
             }
         }
+
         private void CapNhat(string masp)
         {
             Open();
            
             string tensp = txtTenSp.Text;
-            DateTime dt = dtpNgaySX.Value;
-            DateTime dtEnd = dtpNgayHH.Value;
             string dv = txtDonVi.Text;
             string gc = txtGhiChu.Text;
+            DateTime dt = dtpNgaySX.Value;
+            DateTime dtEnd = dtpNgayHH.Value;
 
-            string update = "update tblMatHang set " + tensp + "','" + dt.ToShortDateString() + "','" + dtEnd.ToShortDateString() + "','" + dv + "',25,'" + gc + "')";
+            float dongia = 0.0f;
+            try
+            {
+                dongia = float.Parse(txtDonGia.Text);
+            }
+            catch
+            {
+                dongia = 0;
+            }
+
+
+            string update = "update tblMatHang set "
+                + "tensp=N'" + tensp + "',"
+                + "ngaysx='" + dt.ToShortDateString() + "',"
+                + "ngayhh='" + dtEnd.ToShortDateString() + "',"
+                + "donvi='" + dv + "',"
+                + "dongia='" + dongia + "',"
+                + "ghichu='" + gc + "' "
+                + "where masp='" + masp + "'";
             SqlCommand com = new SqlCommand(update, con);
 
             com.ExecuteNonQuery();
@@ -119,7 +138,9 @@ namespace Baitap4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //CapNhat();
+            CapNhat(txtMaSP.Text);
+            txtMaSP.Enabled = true;
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -140,8 +161,10 @@ namespace Baitap4
                 string sql = "select * from tblMatHang where masp = '" + masp + "'";
                 SqlCommand com = new SqlCommand(sql, con);
                 SqlDataAdapter adapter = new SqlDataAdapter(com);
+
                 DataSet dt = new DataSet();
                 adapter.Fill(dt);
+
                 string tensp = dt.Tables[0].Rows[0][1].ToString();
                 string ngaysx = dt.Tables[0].Rows[0][2].ToString();
                 string ngayhh = dt.Tables[0].Rows[0][3].ToString();
@@ -156,6 +179,7 @@ namespace Baitap4
                 txtDonVi.Text = donvi;
                 txtDonGia.Text = dongia;
                 txtGhiChu.Text = ghichu;
+                
 
                 Closedata();
             }

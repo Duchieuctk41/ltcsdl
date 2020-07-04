@@ -7,3 +7,12 @@ D:\Baitap4\Baitap4\bin\Debug\Baitap4.exe
 D:\Baitap4\Baitap4\bin\Debug\Baitap4.pdb
 D:\Baitap4\Baitap4\obj\Debug\Baitap4.exe
 D:\Baitap4\Baitap4\obj\Debug\Baitap4.pdb
+D:\ltcsdl\Baitap4\Baitap4\bin\Debug\Baitap4.exe.config
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.exe
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.pdb
+D:\ltcsdl\Baitap4\Baitap4\bin\Debug\Baitap4.exe
+D:\ltcsdl\Baitap4\Baitap4\bin\Debug\Baitap4.pdb
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.csprojResolveAssemblyReference.cache
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.Form1.resources
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.Properties.Resources.resources
+D:\ltcsdl\Baitap4\Baitap4\obj\Debug\Baitap4.csproj.GenerateResource.Cache
